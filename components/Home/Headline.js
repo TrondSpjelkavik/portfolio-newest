@@ -45,7 +45,7 @@ function Headline() {
   return (
     <Container>
       <HeadlineContainer>
-        <MainHeadline>MY JOURNEY</MainHeadline>
+        <MainHeadline>HELLO FLORENT</MainHeadline>
         <SubHeadline>to</SubHeadline>
         <SubHeadline>FULL STACK DEVELOPER</SubHeadline>
         <ButtonContainer>
