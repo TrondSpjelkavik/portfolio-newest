@@ -13,7 +13,7 @@ const Container = styled.div`
   margin: 0 auto;
   @media (max-width: 1090px) {
     flex-direction: column;
-    height: 1600px;
+    height: 1600px !important;
     justify-content: center;
   }
   @media (max-height: 888px) {
