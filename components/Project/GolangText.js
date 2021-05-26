@@ -41,8 +41,8 @@ function GolangText() {
           </ProjectParagraph>
         </ProjectParagraphContainer>
         <ProjectButtons
-          site="https://golang.org"
-          github="https://github.com/TrondSpjelkavik/"
+          site="https://github.com/TrondSpjelkavik/golang-backend"
+          github="https://github.com/TrondSpjelkavik/golang-backend"
         />
       </ProjectContainer>
     </ProjectContent>

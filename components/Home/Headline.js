@@ -22,7 +22,7 @@ const Container = styled.div`
 const MainHeadline = styled.h1`
   font-size: 42px;
   z-index: 10;
-  @media (max-width: 390px) {
+  @media (max-width: 450px) {
     font-size: 32px;
   }
 `;
@@ -31,7 +31,7 @@ const SubHeadline = styled.h2`
   font-size: 38px;
   z-index: 10;
   font-family: "Inconsolata", monospace;
-  @media (max-width: 390px) {
+  @media (max-width: 450px) {
     font-size: 28px;
   }
 `;

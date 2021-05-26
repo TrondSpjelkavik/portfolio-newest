@@ -16,6 +16,9 @@ const Container = styled.div`
     height: 1600px;
     justify-content: center;
   }
+  @media (max-height: 888px) {
+    height: 888px;
+  }
 `;
 
 const AboutContainer = styled.div`

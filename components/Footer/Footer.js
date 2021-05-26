@@ -7,7 +7,7 @@ const FooterContainer = styled.footer`
   position: absolute;
   bottom: 20px;
 
-  @media (max-width: 1090px) {
+  @media (max-width: 1090px), (max-height: 888px) {
     top: 20px;
     width: 150px;
     height: 40px;
@@ -40,7 +40,7 @@ const FooterTextList = styled.li`
   color: white;
   font-family: "Inconsolata", monospace;
   font-size: 14px;
-  @media (max-width: 1090px) {
+  @media (max-width: 1090px), (max-height: 888px) {
     display: none;
   }
 `;
