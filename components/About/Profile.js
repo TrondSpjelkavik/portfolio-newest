@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { GrTwitter, GrFacebook, GrInstagram } from "react-icons/gr";
-import { FaCity, FaUserAlt } from "react-icons/fa";
+import { FaCity, FaUserAlt, FaFilePdf } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { GiEngagementRing, GiDiploma } from "react-icons/gi";
 import { BsChatDotsFill } from "react-icons/bs";
@@ -17,7 +17,7 @@ const ProfileBox = styled.aside`
   align-items: center;
   justify-content: center;
   @media (max-width: 1090px) {
-    height: 450px;
+    height: 550px;
     width: 500px;
     border-radius: 0px;
   }
@@ -41,7 +41,7 @@ const ProfileInfo = styled.div`
   justify-content: space-evenly;
   color: white;
   @media (max-width: 1090px) {
-    height: 450px;
+    height: 550px;
   }
 `;
 
@@ -100,6 +100,24 @@ function Profile() {
           <ContactInfo>
             <FaCity />
             <ContactContent>Trondheim</ContactContent>
+          </ContactInfo>
+          <ContactInfo>
+            <FaFilePdf />
+            <ContactContent>
+              {" "}
+              <a
+                href="https://t-dev.no/resume/Trond_CV_Pro.pdf"
+                style={{ textDecoration: "underline" }}
+              >
+                Resume
+              </a>{" "}
+              <a
+                href="https://www.dincv.net/"
+                style={{ fontStyle: "italic", fontSize: "12px" }}
+              >
+                Built on dincv.net
+              </a>
+            </ContactContent>
           </ContactInfo>
           {/* <ContactInfo>
             <GiEngagementRing />
