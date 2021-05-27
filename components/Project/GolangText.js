@@ -23,12 +23,26 @@ function GolangText() {
           <ProjectParagraph>
             The main propose of this API is to store and interact with the login
             / signup feature. The security uses the{" "}
-            <a href="golang.org/x/crypto/bcrypt" target="_blank">
+            <a
+              href="golang.org/x/crypto/bcrypt"
+              target="_blank"
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "#eb5e43",
+              }}
+            >
               crypto
             </a>{" "}
-            package and for the database i use the{" "}
-            <a href="github.com/jinzhu/gorm" target="_blank">
-              gorm
+            package and for the database I use the{" "}
+            <a
+              href="https://golang.org/pkg/database/sql/"
+              target="_blank"
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "#eb5e43",
+              }}
+            >
+              sql
             </a>{" "}
             package.
           </ProjectParagraph>

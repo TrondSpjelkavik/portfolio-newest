@@ -101,10 +101,10 @@ function Profile() {
             <FaCity />
             <ContactContent>Trondheim</ContactContent>
           </ContactInfo>
-          <ContactInfo>
+          {/* <ContactInfo>
             <GiEngagementRing />
             <ContactContent>Engaged</ContactContent>
-          </ContactInfo>
+          </ContactInfo> */}
           <ContactInfo>
             <MdEmail />
             <ContactContent>
