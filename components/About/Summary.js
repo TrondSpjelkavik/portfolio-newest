@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SummaryBox = styled.div`
   width: 600px;
-  height: 350px;
+  height: 360px;
   background: #405566;
   @media (max-width: 1090px) {
     width: 500px;
@@ -18,7 +18,7 @@ const SummaryContent = styled.div`
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem;
-  height: 340px;
+  height: 360px;
   justify-content: space-around;
   @media (max-width: 650px) {
     height: 500px;
@@ -40,8 +40,12 @@ function Summary() {
       <SummaryContent>
         <SummaryHeadline>About Me</SummaryHeadline>
         <SummaryParagraph>
-          Currently studying Front-End Developer @ Noroff - School of technology
-          and digital media.
+          Currently working as Software Developer @{" "}
+          <a href="https://www.hent.no" style={{ textDecoration: "underline" }}>
+            HENT AS.
+          </a>{" "}
+          Developing inhouse software HENT Core. The application is used by
+          1000+ user every day
         </SummaryParagraph>
         <SummaryParagraph>
           I want to make a better web. One that is fast, easy to use, accessible

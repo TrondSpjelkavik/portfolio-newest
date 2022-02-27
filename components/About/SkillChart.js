@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { SiJavascript, SiReact, SiStyledComponents } from "react-icons/si";
+import {
+  SiJavascript,
+  SiMysql,
+  SiReact,
+  SiSass,
+  SiVueDotJs,
+} from "react-icons/si";
 import { CgFigma, CgGoogle } from "react-icons/cg";
 import { FaGit, FaNodeJs } from "react-icons/fa";
 
@@ -26,6 +32,9 @@ const Skill = styled.div`
   width: 40px;
   background: #eb5e43;
   position: relative;
+  @media (max-width: 650px) {
+    width: 30px;
+  }
 `;
 
 const SkillType = styled.p`
@@ -44,6 +53,9 @@ const SkillLogo = styled.div`
   margin-top: 10px;
   font-size: 28px;
   color: black;
+  @media (max-width: 650px) {
+    font-size: 22px;
+  }
 `;
 
 const Beginner = styled.p`
@@ -83,44 +95,56 @@ function SkillChart() {
     {
       id: 1,
       type: "JavaScript",
-      skill: 75,
+      skill: 80,
       logo: <SiJavascript />,
     },
     {
       id: 2,
-      type: "React",
+      type: "React / Next",
       skill: 70,
       logo: <SiReact />,
     },
     {
       id: 3,
+      type: "Vuejs",
+      skill: 75,
+      logo: <SiVueDotJs />,
+    },
+    {
+      id: 4,
       type: "Golang",
       skill: 55,
       logo: <CgGoogle />,
     },
     {
-      id: 4,
+      id: 5,
       type: "Figma",
       skill: 80,
       logo: <CgFigma />,
     },
     {
-      id: 5,
-      type: "Styled Components",
-      skill: 85,
-      logo: <SiStyledComponents />,
-    },
-    {
       id: 6,
-      type: "Git",
-      skill: 60,
-      logo: <FaGit />,
+      type: "Sass",
+      skill: 85,
+      logo: <SiSass />,
     },
     {
       id: 7,
+      type: "Git",
+      skill: 70,
+      logo: <FaGit />,
+    },
+    {
+      id: 8,
       type: "Node.js",
-      skill: 45,
+      skill: 55,
       logo: <FaNodeJs />,
+    },
+    {
+      id: 9,
+      type: "SQL",
+      skill: 40,
+      logo: <SiMysql />,
     },
   ]);
 

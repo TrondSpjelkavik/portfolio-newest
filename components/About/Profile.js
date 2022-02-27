@@ -3,7 +3,7 @@ import Image from "next/image";
 import { GrTwitter, GrFacebook, GrInstagram } from "react-icons/gr";
 import { FaCity, FaUserAlt, FaFilePdf } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { GiEngagementRing, GiDiploma } from "react-icons/gi";
+import { GiDiploma } from "react-icons/gi";
 import { BsChatDotsFill } from "react-icons/bs";
 
 import styled from "styled-components";
@@ -95,7 +95,7 @@ function Profile() {
           </ProfileImage>
           <ContactInfo>
             <FaUserAlt />
-            <ContactContent>34</ContactContent>
+            <ContactContent>35</ContactContent>
           </ContactInfo>
           <ContactInfo>
             <FaCity />
@@ -106,23 +106,13 @@ function Profile() {
             <ContactContent>
               {" "}
               <a
-                href="https://t-dev.no/resume/Trond_CV_Pro.pdf"
+                href="https://t-dev.no/resume/CV.pdf"
                 style={{ textDecoration: "underline" }}
               >
                 Resume
               </a>{" "}
-              <a
-                href="https://www.dincv.net/"
-                style={{ fontStyle: "italic", fontSize: "12px" }}
-              >
-                Built on dincv.net
-              </a>
             </ContactContent>
           </ContactInfo>
-          {/* <ContactInfo>
-            <GiEngagementRing />
-            <ContactContent>Engaged</ContactContent>
-          </ContactInfo> */}
           <ContactInfo>
             <MdEmail />
             <ContactContent>
@@ -138,7 +128,7 @@ function Profile() {
             <GiDiploma />
             <ContactContent>
               <a
-                href="https://t-dev.no/grades/grades-trond-spjelkavik.png"
+                href="https://t-dev.no/resume/vitnemaal.png"
                 style={{ textDecoration: "underline" }}
               >
                 Grades
