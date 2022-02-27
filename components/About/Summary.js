@@ -10,7 +10,7 @@ const SummaryBox = styled.div`
   }
   @media (max-width: 650px) {
     width: 320px;
-    height: 500px;
+    height: 550px;
   }
 `;
 
@@ -21,7 +21,7 @@ const SummaryContent = styled.div`
   height: 360px;
   justify-content: space-around;
   @media (max-width: 650px) {
-    height: 500px;
+    height: 550px;
   }
 `;
 

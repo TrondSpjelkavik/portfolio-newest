@@ -30,7 +30,7 @@ const AboutContainer = styled.div`
     margin-top: 50px;
   }
   @media (max-width: 650px) {
-    height: 850px;
+    height: 900px;
   }
 `;
 
