@@ -95,7 +95,7 @@ function SkillChart() {
     {
       id: 1,
       type: "JavaScript",
-      skill: 80,
+      skill: 90,
       logo: <SiJavascript />,
     },
     {
@@ -107,7 +107,7 @@ function SkillChart() {
     {
       id: 3,
       type: "Vuejs",
-      skill: 75,
+      skill: 85,
       logo: <SiVueDotJs />,
     },
     {
@@ -131,19 +131,19 @@ function SkillChart() {
     {
       id: 7,
       type: "Git",
-      skill: 70,
+      skill: 90,
       logo: <FaGit />,
     },
     {
       id: 8,
       type: "Node.js",
-      skill: 55,
+      skill: 65,
       logo: <FaNodeJs />,
     },
     {
       id: 9,
       type: "SQL",
-      skill: 40,
+      skill: 60,
       logo: <SiMysql />,
     },
   ]);

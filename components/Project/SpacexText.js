@@ -66,7 +66,9 @@ function SpacexText() {
               purpose and a limited number of pages.
             </ProjectParagraph>
           </ProjectParagraphContainer>
-          <ProjectButtons />
+          <ProjectButtons
+          buttonLabel="Visit project"
+          />
         </ProjectContainer>
       </ProjectContent>
     </>

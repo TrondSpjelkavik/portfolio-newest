@@ -55,7 +55,7 @@ function Summary() {
           love in this profession.
         </SummaryParagraph>
         <SummaryParagraph>
-          I am currently learning Go - golang along with my studies. I believe
+          I am currently learning Go - golang in my spare time. I believe
           Go will become a very important language in the future.
         </SummaryParagraph>
         <SummaryParagraph>

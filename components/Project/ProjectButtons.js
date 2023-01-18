@@ -39,7 +39,7 @@ const VisitPage = styled.button`
   }
 `;
 
-function ProjectButtons({ site, github }) {
+function ProjectButtons({ site, github, buttonLabel }) {
   function openGithub() {
     window.open(github);
   }
@@ -51,7 +51,7 @@ function ProjectButtons({ site, github }) {
           <FaGithub />
         </GithubIcon>
         <a href={site} target="_blank" rel="noopener">
-          <VisitPage>Visit project</VisitPage>
+          <VisitPage>{buttonLabel}</VisitPage>
         </a>
       </ButtonContainer>
     </>
