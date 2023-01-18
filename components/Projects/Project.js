@@ -75,8 +75,8 @@ const ImageFoo4 = styled.img`
 
 const ImageFoo5 = styled.img`
   width: 120px;
-  height: 130px;
-  padding-top: 75px;
+  height: 140px;
+  padding-top: 80px;
   z-index: 99;
 `;
 
