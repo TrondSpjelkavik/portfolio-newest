@@ -73,6 +73,13 @@ const ImageFoo4 = styled.img`
   z-index: 99;
 `;
 
+const ImageFoo5 = styled.img`
+  width: 120px;
+  height: 130px;
+  padding-top: 75px;
+  z-index: 99;
+`;
+
 const SubHeadline = styled.h2`
   color: white;
 `;
@@ -103,12 +110,12 @@ function Project() {
               </ProjectContent>
             </ProjectContainer>
           </Link>
-          <Link href="/build">
+          <Link href="/bim-viewer">
             <ProjectContainer>
               <ProjectContent>
-                <ImageFoo3 src="./nextjslogo.svg" alt="nextjs logo"></ImageFoo3>
-                <ImageFoo4 src="./vercel.svg" alt="vercel logo"></ImageFoo4>
-                <SubHeadline>Build your resume</SubHeadline>
+                <ImageFoo3 src="./vue-logo-svg.svg" alt="nextjs logo"></ImageFoo3>
+                <ImageFoo5 src="./HENT-logo.png" alt="vercel logo"></ImageFoo5>
+                <SubHeadline>BIM Viewer</SubHeadline>
               </ProjectContent>
             </ProjectContainer>
           </Link>
