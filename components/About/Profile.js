@@ -95,11 +95,11 @@ function Profile() {
           </ProfileImage>
           <ContactInfo>
             <FaUserAlt />
-            <ContactContent>35</ContactContent>
+            <ContactContent>37</ContactContent>
           </ContactInfo>
           <ContactInfo>
             <FaCity />
-            <ContactContent>Trondheim</ContactContent>
+            <ContactContent>Stavanger</ContactContent>
           </ContactInfo>
           <ContactInfo>
             <FaFilePdf />
