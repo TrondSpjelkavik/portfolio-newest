@@ -55,12 +55,9 @@ function Summary() {
           love in this profession.
         </SummaryParagraph>
         <SummaryParagraph>
-          I am currently learning Go - golang in my spare time. I believe
-          Go will become a very important language in the future.
-        </SummaryParagraph>
-        <SummaryParagraph>
-          My goal is to be a Full-Stack Developer, because I like to know and
-          understand what drives an application.
+        I am currently developing a tool to view IFC files and work with 3D models. This tool offers the capability to PIN, navigate,
+         and coordinate in both 2D and 3D environments. Additionally, 
+         there are many more features and functionalities in development that will enhance its capabilities even further.
         </SummaryParagraph>
       </SummaryContent>
     </SummaryBox>
